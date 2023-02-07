@@ -1,0 +1,29 @@
+#inputa{
+  height: 30px;
+
+
+
+}
+#inputa:focus{
+border: 2px  solid blue;
+}
+
+
+#container #parb{
+    color:  green;
+    }
+
+    #container #parc{
+        color:  red;
+        }
+
+.errorsa {
+color: blue;
+ }
+
+.errorsb{
+color: green;
+}
+.errorsc{
+    color: red;
+    }
