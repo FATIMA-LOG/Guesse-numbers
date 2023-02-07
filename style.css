@@ -1,0 +1,331 @@
+:root{
+/*colors*/
+--color-primary: #afee50;
+--color-secondary: #111; 
+--color-text: #898989;
+/*fonts*/
+--font-primary: system-ui, Helvetica, Arial, sans-serif;
+--font-size-text: 13px;
+--font-size-title: 20px;
+--font-size-section: 48px;
+
+/*size*/
+--size-primary: 25px;
+--margin-primary: 25px;
+--padding-primary: 25px;
+/* breakpoints*/
+--md : 768px;
+
+}
+
+a{
+color: inherit;
+text-decoration: none;
+
+}
+.navebar-nav{
+height: 120px;
+
+}
+
+
+.img-logo{
+width: 40px;
+height: 80px;
+padding-bottom: 10px;
+
+}
+.text-logo{
+padding-left: 0px;
+
+}
+
+ .nav-item  .treeone-nav-link.nav-link{
+padding:   10px;
+color: white ;
+}
+
+.nav-item .treeone-nav-link.nav-link.active,
+.nav-item .treeone-nav-link.nav-link:hover {
+    
+   color: rgb(13, 119, 119);
+    }
+
+ .navbar-brand{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+.navbar-brand h1{
+ margin: 0;
+
+}
+    .hero{
+
+background: url(bg-img-1.jpg) no-repeat center center /cover;
+height: 515px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.search-form{
+background: white;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+align-items: center;
+justify-content: center;
+padding: 25px;
+}
+
+.form-group{
+flex: 1 25%;
+position: relative;
+display: flex;
+align-items: center;
+}
+.form-group .form-control{
+border-radius: 0;
+padding: 12.5px;
+padding-left: 40px;
+}
+
+
+.form-group i{
+color: rgb(13, 119, 119);
+font-size: 25px;
+position: absolute;
+left: 10px;
+}
+
+
+.btn-primary{
+background-color: rgb(0, 133, 133);
+border: none;
+border: 0;
+width: 100%;
+padding: 12.5px;
+text-transform: uppercase;
+}
+
+.btn-primary:hover{
+background: rgb(7, 79, 79);
+
+
+}
+.need-help{
+background: white;
+font-size: .8rem;
+padding: 0 50px 12.5px;
+}
+
+section{
+padding:25px;
+position: relative;
+}
+.section-color{
+ background:rgb(13, 119, 119);
+color: white;
+}
+
+.section-title{
+font-size: 35px;
+
+}
+
+.sectio-subtitle{
+font-size: 20px;
+
+}
+
+.btn-white{
+border: 2px solid white;
+color: inherit;
+padding: 12.5px 25px;
+}
+
+.btn-white:hover{
+background: white;
+color: rgb(13, 119, 119);
+}
+
+.section-down-arrow{
+position: absolute;
+top: 0;
+width: 100%;
+height: 120px;
+left: 0;
+}
+
+.article{
+text-align: center;
+margin-top: 50px;
+padding: 25px;
+transition: all .2s ease-in;
+color:rgb(13, 119, 119);
+
+}
+
+.article:hover{
+scale: 1.1;
+box-shadow: 0 0 7px 0 rgb(8, 64, 64);;
+
+}
+
+.article .article-icon{
+
+font-size: 4rem;
+margin-bottom: 12.5px;
+}
+
+.btn-fit{
+width: max-content;
+
+}
+
+.section-gray{
+background: #f4f4f4;
+}
+
+
+
+.treeone-slider-item{
+    margin-left: 12px;
+background: white;
+margin-bottom: 20px;
+}
+
+
+.treeone-slider img{
+width: 100%;
+
+}
+
+.treeone-slider-item-container{
+ padding: 25px;
+
+}
+
+.treeone-slider-item h3{
+font-size: 25px;
+color: rgb(0, 133, 133);
+}
+
+.treeone-slider-item p{
+font-size: 16px;
+color: #111;
+}
+
+.star-places{
+background-color: white;
+
+}
+
+.star-places-header{
+background-color: rgb(0, 133, 133) ;
+color: white;
+padding: 12.5px ;
+
+
+}
+
+.star-places-header h3{
+font-size: 20px;
+font-weight: 200;
+}
+
+.star-places-header p{
+font-size: 16px;
+margin: 0;
+
+}
+
+.star-places-body{
+padding: 25px;
+
+}
+
+.star-places-body a{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 15px ;
+background-color: #f4f4f4;;
+margin-bottom: 5px;
+color: black;
+transition: all .2s ease-in;
+
+}
+
+.star-places-body a:hover{
+background-color: #afafaf;
+
+}
+
+.star-places-body h4{
+font-size: 16px;
+text-transform: uppercase;
+}
+
+
+.videoa{
+width: 100%;
+
+}
+
+.video-overlay{
+position: absolute;
+width: 100%;
+height: 508px;
+z-index: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.video-control-play, .video-control-pause{
+  color: white;
+  font-size: 25px;
+ cursor:pointer;
+}
+
+.video-control-pause{
+display: none;
+}
+
+.video-container{
+overflow: hidden;
+width: 100%;
+height: 515px;
+position: relative;
+}
+
+.video-container video{
+width: 100%;
+
+}
+
+.contact-form{
+
+margin: 0 auto;
+}
+
+.contact-form .form-control{
+ background: #fdfbfb;
+
+
+}
+
+.contact-form .form-group i{
+top: 12.5px
+}
+
+.map-container{
+  width: 100%;
+    padding-bottom: 12.5px;
+  height: 100%;
+}
